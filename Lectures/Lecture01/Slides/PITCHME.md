@@ -9,7 +9,7 @@ Instructor: John Gibbons
 TA: Michael Codega
 TA: Mary Katherine Miller
 
-Lectures: Friday 3:15 - 4:05
+Lectures: Friday 3:20 - 4:10
 
 Location: Glennan 313
 
