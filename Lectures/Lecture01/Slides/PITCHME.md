@@ -74,5 +74,5 @@ ModelSim Simulation Software
 * Email invitation for assignment
 * Invitation link creates GitHub repo for each student
 * Tool Setup (GitHub, Git, Quartus, ModelSim)
-* Code Example (Morse Code Transmitter)
+* Code Example (Buttons and LED's simple example)
 * Project and Markdown Report submitted by GitHub commit
