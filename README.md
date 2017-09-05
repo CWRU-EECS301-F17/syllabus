@@ -55,22 +55,22 @@ All lab assignments will be assigned and collected via [GitHub](https://github.c
 
 ### Lab Schedule
 
-|           |   Assigned   |      Due      |   Point Value  |
-|-----------|---------------|---------------|---------------|
-| **Lab 1** | Sep 1, 2017	| Sep 8, 2017  |  100 Points   |
-| **Bonus 1** | Sep 4 ,2017 | Sep 4, 2017 | 20 Points |
-| **Lab 2** | Sep 8, 2017	| Sep 15, 2017  |  110 Points   |
-| **Lab 3** |Sep 15 , 2017	| Sep 22, 2017  |  110 Points   |
-| **Lab 4** | Sep 22, 2017	| Sep 29, 2017  |  100 Points   |
-| **Lab 5** | Sep 29, 2017	| Oct 6, 2017  |  100 Points   |
-| **Lab 6** | Oct 6, 2017	| Oct 13, 2017  |  100 Points   |
-| **Lab 7** | Oct 13, 2017	| Oct 27, 2017  |  100 Points   |
-| **Bonus 2** | Oct 23 ,2017 | Oct 24, 2017 | 20 Points |
-| **Lab 8** | Oct 27, 2017	| Nov 10, 2017  |  100 Points   |
-| **Bonus 3** | Oct 31 ,2017 | Oct 31, 2017 | 20 Points |
-| **Lab 9** | Nov 10, 2017	| Nov 22, 2017  |  100 Points   |
-| **Bonus 4** | Nov 23,2017 | Nov 26, 2017 | 20 Points  |
-| **Lab 10** | Nov 22, 2017	| Dec 8, 2017  |  100 Points   |
+|           |   Assigned   |      Due      |Cutoff Date  |   Point Value  |
+|-----------|---------------|---------------|---------------|---------------|
+| **Lab 1** | Sep 1, 2017	| Sep 8, 2017  | Sep 22, 2017  | 100 Points   |
+| **Bonus 1** | Sep 4 ,2017 | Sep 4, 2017 | Sep 4, 2017  | 20 Points |
+| **Lab 2** | Sep 8, 2017	| Sep 15, 2017  | Sep 29, 2017  |  110 Points   |
+| **Lab 3** |Sep 15 , 2017	| Sep 22, 2017  | Oct 6, 2017  |  110 Points   |
+| **Lab 4** | Sep 22, 2017	| Sep 29, 2017  | Oct 13, 2017  |  100 Points   |
+| **Lab 5** | Sep 29, 2017	| Oct 6, 2017  | Oct 20, 2017  |  100 Points   |
+| **Lab 6** | Oct 6, 2017	| Oct 13, 2017  | Oct 27, 2017  |  100 Points   |
+| **Lab 7** | Oct 13, 2017	| Oct 27, 2017  | Nov 10, 2017  |  100 Points   |
+| **Bonus 2** | Oct 23 ,2017 | Oct 24, 2017 |Oct 24, 2017  | 20 Points |
+| **Lab 8** | Oct 27, 2017	| Nov 10, 2017  | Nov 24, 2017  |  100 Points   |
+| **Bonus 3** | Oct 31 ,2017 | Oct 31, 2017 | Oct 31, 2017  | 20 Points |
+| **Lab 9** | Nov 10, 2017	| Nov 22, 2017  | Dec 8, 2017  |  100 Points   |
+| **Bonus 4** | Nov 23,2017 | Nov 26, 2017 | Nov 26, 2017  | 20 Points  |
+| **Lab 10** | Nov 22, 2017	| Dec 8, 2017  | Dec 8, 2017  |  100 Points   |
 
 (1) - These special bonus challenges must be submitted via email to jcg66@case.edu with a time stamp for THAT DAY(s) ONLY!
  If the time stamp on the email does not show that date, it will not be accepted (i.e there is only a 24 (or 48 for Bonus 2) hour submission window). --- >>>NO EXCEPTIONS!<<<---
@@ -88,8 +88,8 @@ _curve possible at instructor's discretion_
 * The lab deadlines are implemented to keep you on track - once you 'git' behind, it's very difficult to catch up.
 * Late penality is -5 points per day late, on a simple subtractive basis (max late penality is -50 points or 10 days)
 * If labs are more than 10 days late then clearly something is wrong and we need to talk about it
-* Labs 1-6 have an absolute cutoff deadline of Oct 20, 2017 @ 12:14pm.  No submissions are accepted after that date for credit
-* Labs 7-9 have an absolute cutoff deadline of Dec 1, 2017 @ 12:14pm.  No submisssions are accepted after that date for credit
+* Labs 1-6 have an absolute cutoff deadline of 3 weeks after assignment.  No submissions are accepted after that date for credit
+* Labs 7-9 have an absolute cutoff deadline of 4 weeks after assignment.  No submisssions are accepted after that date for credit
 * Lab 10 has an absolute cutoff deadline of Dec 12, 2017 @ 12:14pm.  No submisssions are accepted after that date for credit
 * Labs should be submitted as a markdown file (submitted thru GitHub) and the PDF (submitted thru Canvas) generated from it. Each submitted file is worth 5 points (for a total of 10 points of the final grade).
 * Opportunities will be given throught the course for extra credit points (to achieve more advanced concepts).  Take them!!
