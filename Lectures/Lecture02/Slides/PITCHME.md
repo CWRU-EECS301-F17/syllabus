@@ -47,7 +47,7 @@
 
 ## RTL Logic (Register Transfer Level Logic)
 
-![RTL Logic](https://raw.githubusercontent.com/CWRU-EECS301/Documentation/master/Lectures/Lecture02/rtl-logic.png)
+![RTL Logic](https://raw.githubusercontent.com/CWRU-EECS301-F17/syllabus/master/Lectures/Lecture02/Slides/rtl-logic.png)
 
 * HDL behavioral models are translated to RTL logic
 * RTL logic is synthesized into Gate-level logic
@@ -55,12 +55,11 @@
 
 #HSLIDE
 
-### FPGA Fabric 
-**Altera Cyclone V**
+### FPGA Fabric (Altera Cyclone V)
 
-![Cyclone V Floorplan](https://raw.githubusercontent.com/CWRU-EECS301/Documentation/master/Lectures/Lecture02/cv_floorplan.gif)
+![Cyclone V Floorplan](https://raw.githubusercontent.com/CWRU-EECS301-F17/syllabus/master/Lectures/Lecture02/Slides/cv_floorplan.gif)
 
-* FPGA fabrics consist mainly of ALMs (or CLBs on Xilinx FPGAs)
+* FPGA fabrics consist mainly of ALMs
 * Other Hard-IP features are added for additional capabilities
 
 #HSLIDE
@@ -69,7 +68,7 @@
 
 * Cyclone V 5CSEA5 FPGA has 32,075 ALMs
 
-![Cyclone V ALM](https://raw.githubusercontent.com/CWRU-EECS301/Documentation/master/Lectures/Lecture02/cv_alm01.png)
+![Cyclone V ALM](https://raw.githubusercontent.com/CWRU-EECS301-F17/syllabus/master/Lectures/Lecture02/Slides/cv_alm01.png)
 
 #HSLIDE
 
@@ -96,7 +95,7 @@
 
 #HSLIDE
 
-### Verilog Module
+**Verilog Module**
 
 ```
 module Example_Logic_Block
@@ -112,7 +111,7 @@ endmodule
 
 #HSLIDE
 
-### VHDL Enity/Architecture
+**VHDL Enity/Architecture**
 
 ```
 library ieee;
@@ -128,9 +127,7 @@ end entity;
 
 architecture rtl of Example_Logic_Block is
 begin
-
 	z <= (a and b) xor c;
-	
 end rtl;
 ```
 
@@ -174,9 +171,7 @@ assign c = (a & ~b) | (~a & b);
 ```
 signal a, b, c: std_logic; -- Defined in 
 
-begin
-	c <= (a and not b) or (not a and b);
-end
+c <= (a and not b) or (not a and b);
 ```
 
 #HSLIDE
@@ -240,4 +235,4 @@ end
 
 ## Lab 2 Overview
 
-![LED Scanner](led_scanner.gif)
+![LED Scanner](https://raw.githubusercontent.com/CWRU-EECS301-F17/syllabus/master/Lectures/Lecture02/Slides/led_scanner.gif)
