@@ -60,7 +60,7 @@
 ![Cyclone V Floorplan](https://raw.githubusercontent.com/CWRU-EECS301-F17/syllabus/master/Lectures/Lecture02/Slides/cv_floorplan.gif)
 
 * FPGA fabrics consist mainly of ALMs
-* Other Hard-IP features are added for additional capabilities
+* Other Hard-IP features added for additional capabilities
 
 #HSLIDE
 
