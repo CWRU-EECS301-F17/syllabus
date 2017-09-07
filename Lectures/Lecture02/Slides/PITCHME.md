@@ -82,16 +82,15 @@
 	* Verilog is more flexible for generating simulation models
 	* Verilog is more succinct, whereas VHDL is verbose
 
+
 #HSLIDE
 
-## Good Coding Practice
+### Modular Design
 
-* One module definition per file
-* Include comment header block for each module
-	* Example: See any Lab Assignment module file
-* Name of file should match name of module
-* Prefix the filename of grouped modules
-	* Example: `CLS_Scanner_Module.v`
+* Partition design into small functional blocks
+* Easier code reuse and refactoring
+* Enables unit-testing of modules
+* Well supported by both Verilog and VHDL
 
 #HSLIDE
 
@@ -99,9 +98,12 @@
 
 ```
 module Example_Logic_Block
+#(
+	parameter CLK_RATE = 50 // MHz
+)
 (
-    input a, b, c;
-    output z;
+    input a, b, c,
+    output z
 );
 
 	assign z = (a & b) ^ c;  
@@ -111,17 +113,21 @@ endmodule
 
 #HSLIDE
 
-**VHDL Enity/Architecture**
+**VHDL Entity/Architecture**
 
 ```
 library ieee;
 use ieee.std_logic_1164.all;
 
 entity Example_Logic_Block is
+generic 
+(
+	CLK_RATE : integer := 50 -- MHz
+);
 port
 (
 	a, b, c : in std_logic;
-	z : out std_logic;
+	z : out std_logic
 );
 end entity;
 
@@ -130,6 +136,18 @@ begin
 	z <= (a and b) xor c;
 end rtl;
 ```
+
+#HSLIDE
+
+## Good Coding Practice
+
+* One module definition per file
+* Include comment header block for each module
+	* Example: See any Lab Assignment module
+* Name of file should match name of module
+* Prefix the filename of grouped modules
+	* Example: `CLS_Scanner_Module.v`
+
 
 #HSLIDE
 
@@ -211,7 +229,7 @@ end
 
 #HSLIDE
 
-## Rollover Counter
+### Rollover Counter
 
 ```Verilog
 // Generate a clock tick every 75 clock cycles
@@ -227,6 +245,58 @@ begin
 		counter <= (9'h100 - 9'd75 + 1'b1); // Reset the counter
 	else
 		counter <= counter + 1'b1; // Increment the counter
+end
+```
+
+#HSLIDE
+
+## Parameters
+
+* Similar concept to overloading in C++
+* Parameters make module functionality flexible
+* Simple parameters
+	* Specify signal widths
+	* Set delay parameters
+* Complex parameters
+	* Coupled with `generate` can completely change a module's function
+
+#HSLIDE
+
+### Parameter Examples
+
+```Verilog
+parameter CLK_RATE = 50; // MHz
+parameter DELAY_TIME = 1000; // nS
+	
+localparam DELAY_TICKS = DELAY_TIME / (1000.0 / CLK_RATE);
+localparam COUNT_WIDTH = bit_index(DELAY_TICKS);
+localparam ROLLOVER_VAL = { 1'b1, {(CNT_WIDTH){1'b0}} };
+localparam COUNT_LOADVAL = ROLLOVER_VAL - DELAY_TICKS + 1'b1;
+
+reg [COUNT_WIDTH:0] count_reg;
+```
+
+#HSLIDE
+
+**Rollover Counter (Parameterized)**
+
+```Verilog
+localparam CLOCKS_PER_TICK = 75; // Tick every 75 clock cycles
+
+localparam COUNTER_WIDTH = bit_index(CLOCKS_PER_TICK);
+localparam COUNTER_LOADVAL = {1'b1, {COUNTER_WIDTH{1'b0}}} - CLOCKS_PER_TICK + 1'b1;
+
+reg [COUNTER_WIDTH:0] counter_reg;
+wire                  clock_tick;
+
+assign clock_tick = counter_reg[COUNTER_WIDTH];
+
+always @(posedge CLK)
+begin
+	if (clock_tick)
+		counter_reg <= COUNTER_LOADVAL;
+	else
+		counter_reg <= counter_reg + 1'b1;
 end
 ```
 
