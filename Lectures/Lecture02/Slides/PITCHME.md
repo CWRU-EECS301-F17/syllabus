@@ -233,18 +233,18 @@ end
 
 ```Verilog
 // Generate a clock tick every 75 clock cycles
-reg [8:0] counter;  // 9-bit counter
+reg [8:0] counter_reg;  // 9-bit counter
 wire      clock_tick;
 
 // Use the counter rollover as the clock tick
-assign clock_tick = counter[8]; // Rollover bit
+assign clock_tick = counter_reg[8]; // Rollover bit
 
 always @(posedge CLK)
 begin
 	if (clock_tick)
-		counter <= (9'h100 - 9'd75 + 1'b1); // Reset the counter
+		counter_reg <= (9'h100 - 9'd75 + 1'b1); // Reload the counter
 	else
-		counter <= counter + 1'b1; // Increment the counter
+		counter_reg <= counter_reg + 1'b1; // Increment the counter
 end
 ```
 
@@ -281,14 +281,17 @@ reg [COUNT_WIDTH:0] count_reg;
 **Rollover Counter (Parameterized)**
 
 ```Verilog
-localparam CLOCKS_PER_TICK = 75; // Tick every 75 clock cycles
+// Generate a clock tick every 75 clock cycles
+localparam CLOCKS_PER_TICK = 75;
 
+// Compute Counter Parameters
 localparam COUNTER_WIDTH = bit_index(CLOCKS_PER_TICK);
 localparam COUNTER_LOADVAL = {1'b1, {COUNTER_WIDTH{1'b0}}} - CLOCKS_PER_TICK + 1'b1;
 
 reg [COUNTER_WIDTH:0] counter_reg;
 wire                  clock_tick;
 
+// Use the counter rollover as the clock tick
 assign clock_tick = counter_reg[COUNTER_WIDTH];
 
 always @(posedge CLK)
