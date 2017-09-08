@@ -27,7 +27,7 @@ All lab assignments will be assigned and collected via [GitHub](https://github.c
 * _All work turned in should be your own._
 * Neither copy another student's work nor allow your work to be copied.
 * Please refer to the [University's Academic Integrity Standards](http://www.case.edu/provost/ugstudies/acintegrity.htm)
-* Ultimately cheating only hurts yourself - short term success may seem appealing to meet a deadline, but in the long term not learning the material will come back to bite you in ways you can't anticipate.   Punishments for engaging in this kind of activity are VERY severe and non-reversable.  So simply don't go there.
+* Ultimately cheating only hurts yourself - short term success may seem appealing to meet a deadline, but in the long term not learning the material will come back to bite you in ways you can't anticipate.   Punishments for engaging in this kind of activity are VERY severe and non-reversible.  So simply don't go there.
 
 ### EECS301 Spring 2017 Lecture Schedule
 
@@ -86,11 +86,11 @@ _curve possible at instructor's discretion_
 
 * Labs are due at 12:14 pm EST (noon + a fortnight of minutes) on date specified in above table (a fort-what?)
 * The lab deadlines are implemented to keep you on track - once you 'git' behind, it's very difficult to catch up.
-* Late penality is -5 points per day late, on a simple subtractive basis (max late penality is -50 points or 10 days)
+* Late penalty is -5 points per day late, on a simple subtractive basis (max late penalty is -50 points or 10 days)
 * If labs are more than 10 days late then clearly something is wrong and we need to talk about it
 * Labs 1-6 have an absolute cutoff deadline of 3 weeks after assignment.  No submissions are accepted after that date for credit
-* Labs 7-9 have an absolute cutoff deadline of 4 weeks after assignment.  No submisssions are accepted after that date for credit
-* Lab 10 has an absolute cutoff deadline of Dec 12, 2017 @ 12:14pm.  No submisssions are accepted after that date for credit
+* Labs 7-9 have an absolute cutoff deadline of 4 weeks after assignment.  No submissions are accepted after that date for credit
+* Lab 10 has an absolute cutoff deadline of Dec 12, 2017 @ 12:14pm.  No submissions are accepted after that date for credit
 * Labs should be submitted as a markdown file (submitted thru GitHub) and the PDF (submitted thru Canvas) generated from it. Each submitted file is worth 5 points (for a total of 10 points of the final grade).
-* Opportunities will be given throught the course for extra credit points (to achieve more advanced concepts).  Take them!!
+* Opportunities will be given throughout the course for extra credit points (to achieve more advanced concepts).  Take them!!
 * No special labs will be created for extra credit.  Take advantage of the extra credit points opportunities when given.
