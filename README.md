@@ -1,9 +1,9 @@
 # EECS301 Digital Logic Laboratory
 
-## Course Description
+## ABET Course Description
+This course is an introductory experimental laboratory for digital logic synthesis. The course introduces students to the process of design, analysis, simulation, synthesis and implementation of digital logic networks utilizing current Field Programmable Gate Array (FPGA) design techniques. The course covers the design of combinational circuits, registers, counters, metastability mitigation, synchronous/asynchronous Finite State Machines, registered based designs, arithmetic computational blocks and the instantiation of custom Intellectual Property (IP) blocks within the FPGA design. 
 
-This course is an introductory experimental laboratory for digital networks. The course introduces students to the process of design, analysis, synthesis and implementation of digital networks. The course covers the design of combinational circuits, sequential networks, registers, counters, synchronous/asynchronous Finite State Machines, register based design, and arithmetic computational blocks. This is a 2 credit hour course. Pre-req: EECS 281.
-
+## Pre-req: EECS 281.
 ## Textbook
 
 A textbook for the course will not be required.  The lab assignments will include all necessary documentation to complete the project designs.  Additional reference material suggestions will be included with the lab guides.
