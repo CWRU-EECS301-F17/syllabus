@@ -4,6 +4,9 @@
 This course is an introductory experimental laboratory for digital logic synthesis. The course introduces students to the process of design, analysis, simulation, synthesis and implementation of digital logic networks utilizing current Field Programmable Gate Array (FPGA) design techniques. The course covers the design of combinational circuits, registers, counters, metastability mitigation, synchronous/asynchronous Finite State Machines, registered based designs, arithmetic computational blocks and the instantiation of custom Intellectual Property (IP) blocks within the FPGA design. 
 
 ## Pre-req: EECS 281.
+## Course Goals: 
+The goals of this laboratory are to introduce students to the capabilities and limitations of hardware design techniques used in the instantiation of digital networks based on designs utilizing FPGA’s. The learning outcomes include understanding real-world considerations such as critical timing, metastability mitigation, working with industrial serial communication standards such as SPI, I2C, I2S, Uno (single wire),  asynchronous protocols and Ethernet based communication (which introduces the IEEE 1588 timing standard).  The course also incorporates a continuous improvement aspect as the students are asked to include in their lab reports issues that were encountered in completing the lab assignment that caused confusion and this information is then used to update the labs to make them clearer for the next semester.
+
 ## Textbook
 
 A textbook for the course will not be required.  The lab assignments will include all necessary documentation to complete the project designs.  Additional reference material suggestions will be included with the lab guides.
