@@ -1,8 +1,11 @@
 # EECS301 Digital Logic Laboratory
 
-## Course Description
+## ABET Course Description
+This course is an introductory experimental laboratory for digital logic synthesis. The course introduces students to the process of design, analysis, simulation, synthesis and implementation of digital logic networks utilizing current Field Programmable Gate Array (FPGA) design techniques. The course covers the design of combinational circuits, registers, counters, metastability mitigation, synchronous/asynchronous Finite State Machines, registered based designs, arithmetic computational blocks and the instantiation of custom Intellectual Property (IP) blocks within the FPGA design. 
 
-This course is an introductory experimental laboratory for digital networks. The course introduces students to the process of design, analysis, synthesis and implementation of digital networks. The course covers the design of combinational circuits, sequential networks, registers, counters, synchronous/asynchronous Finite State Machines, register based design, and arithmetic computational blocks. This is a 2 credit hour course. Pre-req: EECS 281.
+## Pre-req: EECS 281.
+## Course Goals: 
+The goals of this laboratory are to introduce students to the capabilities and limitations of hardware design techniques used in the instantiation of digital networks based on designs utilizing FPGA’s. The learning outcomes include understanding real-world considerations such as critical timing, metastability mitigation, working with industrial serial communication standards such as SPI, I2C, I2S, Uno (single wire),  asynchronous protocols and Ethernet based communication (which introduces the IEEE 1588 timing standard).  The course also incorporates a continuous improvement aspect as the students are asked to include in their lab reports issues that were encountered in completing the lab assignment that caused confusion and this information is then used to update the labs to make them clearer for the next semester.
 
 ## Textbook
 
@@ -61,7 +64,7 @@ All lab assignments will be assigned and collected via [GitHub](https://github.c
 | **Bonus 1** | Sep 4 ,2017 | Sep 4, 2017 | Sep 4, 2017  | 20 Points |
 | **Lab 2** | Sep 8, 2017	| Sep 15, 2017  | Sep 29, 2017  |  180 Points   |
 | **Lab 3** |Sep 15 , 2017	| Sep 22, 2017  | Oct 6, 2017  |  290 Points   |
-| **Lab 4** | Sep 22, 2017	| Sep 29, 2017  | Oct 13, 2017  |  100 Points   |
+| **Lab 4** | Sep 22, 2017	| Sep 29, 2017  | Oct 13, 2017  |  120 Points   |
 | **Lab 5** | Sep 29, 2017	| Oct 6, 2017  | Oct 20, 2017  |  100 Points   |
 | **Lab 6** | Oct 6, 2017	| Oct 13, 2017  | Oct 27, 2017  |  100 Points   |
 | **Lab 7** | Oct 13, 2017	| Oct 27, 2017  | Nov 10, 2017  |  100 Points   |
