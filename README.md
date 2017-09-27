@@ -95,5 +95,6 @@ _curve possible at instructor's discretion_
 * Labs 7-9 have an absolute cutoff deadline of 4 weeks after assignment.  No submissions are accepted after that date for credit
 * Lab 10 has an absolute cutoff deadline of Dec 12, 2017 @ 12:14pm.  No submissions are accepted after that date for credit
 * Labs should be submitted as a markdown file (submitted thru GitHub) and the PDF (submitted thru Canvas) generated from it. Each submitted file is worth 5 points (for a total of 10 points of the final grade).
+* For the demonstration portions of the labs, if the demo of the lab is submitted after the listed due date/time, the point value for the demo portion is only worth 50% of the original value. This is independent of how late it is submitted - from 1 femto-second late up to when the lab is no longer accepted (at which point the value becomes 0%).
 * Opportunities will be given throughout the course for extra credit points (to achieve more advanced concepts).  Take them!!
 * No special labs will be created for extra credit.  Take advantage of the extra credit points opportunities when given.
