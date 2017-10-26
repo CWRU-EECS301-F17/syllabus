@@ -67,7 +67,7 @@ All lab assignments will be assigned and collected via [GitHub](https://github.c
 | **Lab 4** | Sep 22, 2017	| Sep 29, 2017  | Oct 13, 2017  |  120 Points   |
 | **Lab 5** | Sep 29, 2017	| Oct 6, 2017  | Oct 20, 2017  |  375 Points   |
 | **Lab 6** | Oct 6, 2017	| Oct 13, 2017  | Oct 27, 2017  |  340 Points   |
-| **Lab 7** | Oct 13, 2017	| Oct 27, 2017  | Nov 10, 2017  |  670 Points   |
+| **Lab 7** | Oct 13, 2017	| Oct 30, 2017  | Nov 10, 2017  |  670 Points   |
 | **Bonus 2** | Oct 23 ,2017 | Oct 24, 2017 |Oct 24, 2017  | 20 Points |
 | **Lab 8** | Oct 27, 2017	| Nov 10, 2017  | Nov 24, 2017  |  *** Points   |
 | **Bonus 3** | Oct 31 ,2017 | Oct 31, 2017 | Oct 31, 2017  | 20 Points |
