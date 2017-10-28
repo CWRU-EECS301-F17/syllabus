@@ -11,7 +11,7 @@
 | **Lecture 7** | Oct 13, 2017 | [Lecture 7](https://gitpitch.com/CWRU-EECS301-F17/syllabus/master?p=/Lectures/Lecture07/Slides/) |
 | **Lecture 8** | Oct 20, 2017 | [Lecture 8](https://gitpitch.com/CWRU-EECS301-F17/syllabus/master?p=/Lectures/Lecture08/Slides/) |
 | **Fall Break** | Oct 23-24, 2017 |
-| **Lecture 9** | Oct 27, 2017 |
+| **Lecture 9** | Oct 27, 2017 | [Lecture 9](https://gitpitch.com/CWRU-EECS301-F17/syllabus/master?p=/Lectures/Lecture09/Slides/) |
 | **Lecture 10** | Nov 3, 2017 |
 | **Lecture 11** | Nov 10, 2017 |
 | **Lecture 12** | Nov 17, 2017 |
