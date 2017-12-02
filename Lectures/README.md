@@ -15,5 +15,5 @@
 | **Lecture 10** | Nov 3, 2017 | [Lecture 10](https://gitpitch.com/CWRU-EECS301-F17/syllabus/master?p=/Lectures/Lecture10/Slides/) |
 | **Lecture 11** | Nov 10, 2017 | [Lecture 11](https://gitpitch.com/CWRU-EECS301-F17/syllabus/master?p=/Lectures/Lecture11/Slides/) |
 | **Lecture 12** | Nov 17, 2017 | [Lecture 12](https://gitpitch.com/CWRU-EECS301-F17/syllabus/master?p=/Lectures/Lecture12/Slides/) |
-| **Lecture 13** | Dec 1, 2017 |
+| **Lecture 13** | Dec 1, 2017 | [Lecture 13](https://gitpitch.com/CWRU-EECS301-F17/syllabus/master?p=/Lectures/Lecture13/Slides/) |
 | **Lecture 14** | Dec 8, 2017 |
